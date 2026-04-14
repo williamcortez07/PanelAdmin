@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --success-color: #27ae60;
+  --warning-color: #f39c12;
+
+  /*colores de texto*/
+
+  --text-primary: #2c3e50;
+  --text-secondary: #7f8c8d;
+  --text-light: #95a5a6;
+
+  /*colores de fondo*/
+
+  --bg-primary: #fff;
+  --bg-secondary: #f8f9fa;
+  --bg-dark: #34495e;
+
+  /*espaciado*/
+
+  --spacing-xs: 5px;
+  --spacing-sn: 10px;
+  --spacing-md: 20px;
+  --spacing-lg: 30px;
+  --spacing-xl: 40px;
+
+  /*bordes*/
+  --border-radius: 8px;
+  --border-color: #ele8ed;
+
+  /*sombras*/
+  --shadom-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadom-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadom-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+  /*Transiciones*/
+
+  --transition-fast: 0.2s ease;
+  --transition-fast: 0.3s ease;
+  --transition-fast: 0.5s ease;
+}
+
+/*
+   ------------------------------------------------------------------
+   RESET Y CONFIGUARACION BASE
+   ------------------------------------------------------------
+   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    line-height: 1.6;
+  }
+}
